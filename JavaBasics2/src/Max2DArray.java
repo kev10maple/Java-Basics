@@ -2,8 +2,7 @@ import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
- * @author Kevin 
- * Finding the max number in an array and showing its position
+ * @author Kevin Finding the max number in an array and showing its position
  */
 public class Max2DArray {
 
@@ -55,7 +54,7 @@ public class Max2DArray {
 	public static void main(String[] args) {
 
 		Max2DArray a = new Max2DArray();
-		
+
 		a.displayArray();
 		a.printMax();
 
