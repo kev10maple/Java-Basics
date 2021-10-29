@@ -70,16 +70,15 @@ public class MoreLambdas {
 	public boolean check(PerformOperation p, int n) {
 		
 		return p.check(n);
-		
 	}
 	
-	private PerformOperation isOdd() {
+	public PerformOperation isOdd() {
 		
 		return a -> (a % 2 != 0) ? true : false;
 		
 	}
 	
-	private PerformOperation isPrime() {
+	public PerformOperation isPrime() {
 		
 		return a -> {
 			if(a <= 1)
@@ -94,7 +93,7 @@ public class MoreLambdas {
 		
 	}
 	
-	private PerformOperation isPalindrome() {
+	public PerformOperation isPalindrome() {
 		
 		return a -> a == Integer.parseInt(new StringBuilder(String.valueOf(a)).reverse().toString()) ? true : false;
 		
